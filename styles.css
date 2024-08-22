@@ -1,0 +1,22 @@
+/*
+30074191 / Keanu Farro
+*/
+
+html,
+
+/*
+  I know you told me that its really bad practice to use !important but when i remove it my background colour gets overidden by some bootstrap feature that i can't figure out
+  sorry sir :(
+*/
+body {
+  background-color: rgb(40, 40, 43) !important; 
+}
+
+h1 {
+  color: white !important;
+}
+
+
+div {
+  color: black;
+}

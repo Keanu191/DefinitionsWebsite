@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questions Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Insert navigation here
+ Source for navbar:
+https://getbootstrap.com/docs/5.0/components/navbar/ -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="SMTAFE logo.png" height="50">
+        <img class="logo" src="CITEMS-Logo-PNG.png" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- One of the features of bootstrap 5 that I'm using is ms-auto as for people with different languages
+              the text usually moves to the right such as Farsi-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Return to home page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us!</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              More pages:
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="contact.html">Contact Page</a></li>
+              <li><a class="dropdown-item" href="definitions.html">Definitions Page</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="index.html">Home Page</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <h1 align="center">Questions:</h1>
+  <!--Accordion source: 
+https://getbootstrap.com/docs/5.0/components/accordion/-->
+  <!--center accordions-->
+  <!--center accordions-->
+  <div class="container" style="text-align:center;">
+    <div class="accordion" id="accordionExample">
+
+      <!-- Accordion for group 1 Questions-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Group One Questions
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>What are the principles of analysis and design?</strong>
+            There are twelve basic principles of design: contrast, balance, emphasis, proportion, hierarchy, repetition,
+            rhythm, pattern, white space, movement, variety, and unity. These visual and graphic design principles work
+            together to create appealing and functional designs that make sense to users.
+            <br>
+            <br>
+            <strong>What are website architectural requirements?</strong> Website architecture is the hierarchical
+            structure of your website pages. This structure is reflected through internal linking. Your website's
+            structure should help users easily find information and help search engine crawlers understand the
+            relationship between different pages.
+          </div>
+          <br>
+          <strong>What are website design structures, including hierarchy and navigation design?</strong> It involves
+          the hierarchical arrangement of web pages and their relationships to one another. Website structure helps
+          visitors and search engines navigate and understand the website's content. There are four types of website
+          architectures: hierarchical, sequential, matrix, database.
+          <br>
+          <br>
+          <strong>What are user-interface design requirements and production processes?</strong> The interface design
+          process involves creating wireframes, mock-ups, and prototypes of the visual elements and interactions. The
+          user experience design process includes research, user personas, user flows, and usability testing to improve
+          the overall experience.
+        </div>
+      </div>
+      <!-- Accordion for group 2 Questions-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Group Two Questions
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>What are programming controls and design structures?</strong> In the world of Computer Science,
+            programming control structures are essential components that dictate the flow of execution within a program.
+            These structures help you organise your code effectively and optimise its performance.
+            <br>
+            <br>
+            <strong>What are programming controls and design structures?</strong> In the world of Computer Science,
+            programming control structures are essential components that dictate the flow of execution within a program.
+            These structures help you organise your code effectively and optimise its performance.
+            <br>
+            <br>
+            <strong>What are website testing procedures?</strong> <br> Step 1: Functionality testing.
+            <br>
+            Step 2: Usability testing – not only for user experience.
+            <br>
+            Step 3: Interface testing.
+            <br>
+            Step 4: Compatibility testing.
+            <br>
+            Step 5: Performance testing.
+            <br>
+            Step 6: Security testing.
+            <br>
+            <br>
+            <strong>What are website debugging methods?</strong><br> In the context of software engineering, debugging
+            is the process of fixing a bug in the software. When there’s a problem with software, programmers analyse
+            the code to figure out why things aren’t working correctly. They use different debugging tools to carefully
+            go through the code, step by step, find the issue, and make the necessary corrections.
+            <br>
+            Step 1: Reproduce the Bug
+            <br>
+            Step 2: Locate the Bug
+            <br>
+            Step 3: Identify the Root Cause
+            <br>
+            Step 4: Fix the Bug
+            <br>
+            Step 5: Test the Fix
+            <br>
+            Step 6: Document the Process
+            <br>
+            <br>
+            <strong>What are some website coding techniques?</strong> <br> 1. Always consider accessibility when coding
+            a website.
+            <br>
+            2. Coding building blocks are the best way to get started.
+            <br>
+            3. When coding a website, keep track of your changes.
+            <br>
+            4. Coding a website and debugging go together.
+            <br>
+            5. Coding needs to consider all users, in multiple versions.
+            <br>
+            6. Keep an eye on the latest industry and coding trends.
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
